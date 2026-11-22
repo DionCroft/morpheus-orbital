@@ -4,9 +4,13 @@
 
 Morpheus ORBITAL connects an Espressif **ESP32-S3-WROOM-1-N16R8** to a Good Display **GDEP073E01** colour e-paper panel. It adds USB-C, microSD, a Bosch **BME690** environmental sensor, and a single-cell battery power path. The board keeps the USB-C port, card slot and buttons along the edges and reserves space for the display flex and the module antenna.
 
-[Download the 18-sheet schematic PDF](docs/Morpheus-Schematic.pdf) · [Open in KiCad](#open-in-kicad) · [Find a component](#component-index) · [Download BOM CSV](Morpheus-BOM.csv)
+[Download the prototype ZIP](https://github.com/DionCroft/morpheus-orbital/releases/download/v0.1.0-prototype/Morpheus-ORBITAL-v0.1.0-prototype.zip) · [Download the 18-sheet schematic PDF](docs/Morpheus-Schematic.pdf) · [Open in KiCad](#open-in-kicad) · [Find a component](#component-index) · [Download BOM CSV](Morpheus-BOM.csv) · [Populated STEP](docs/Morpheus-assembled.step)
 
-[![Front 3D render of Morpheus ORBITAL, showing the ESP32-S3 module, USB-C, microSD and display connector](docs/visuals/morpheus-orbital-front.png)](docs/visuals/morpheus-orbital-front.png)
+<p align="center">
+  <a href="docs/visuals/morpheus-orbital-front.png"><img src="docs/visuals/morpheus-orbital-front.png" alt="Upright component-side 3D render of Morpheus ORBITAL, with the antenna at the top and display FPC at the bottom" width="700"></a>
+</p>
+
+*Component side shown upright. The USB-C port and microSD socket are on the left, and the display FPC is along the bottom.*
 
 ## Hardware at a glance
 
@@ -29,6 +33,10 @@ Morpheus ORBITAL connects an Espressif **ESP32-S3-WROOM-1-N16R8** to a Good Disp
 
 3. From KiCad's project manager, open [circuit_design/Morpheus/Morpheus.kicad_pro](circuit_design/Morpheus/Morpheus.kicad_pro). Open **Schematic Editor** or **PCB Editor** from the project.
 4. In PCB Editor, choose **View > 3D Viewer** to inspect the populated board. The display panel, battery, and external probes are separate from the PCB assembly.
+
+## Mechanical model
+
+The [populated STEP assembly](docs/Morpheus-assembled.step) contains the board and all **164 fitted components**. It is intended for CAD viewing and enclosure planning. Some component bodies use drawing-based envelopes, so check final fit against the actual mating parts.
 
 ## Rear 3D view
 
