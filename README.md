@@ -4,7 +4,7 @@
 
 Morpheus ORBITAL connects an Espressif **ESP32-S3-WROOM-1-N16R8** to a Good Display **GDEP073E01** colour e-paper panel. It adds USB-C, microSD, a Bosch **BME690** environmental sensor, and a single-cell battery power path. The board keeps the USB-C port, card slot and buttons along the edges and reserves space for the display flex and the module antenna.
 
-[Download the prototype ZIP](https://github.com/DionCroft/morpheus-orbital/releases/download/v0.1.0-prototype/Morpheus-ORBITAL-v0.1.0-prototype.zip) · [Download the 18-sheet schematic PDF](docs/Morpheus-Schematic.pdf) · [Open in KiCad](#open-in-kicad) · [Find a component](#component-index) · [Download BOM CSV](Morpheus-BOM.csv) · [Populated STEP](docs/Morpheus-assembled.step)
+[Download the prototype ZIP](https://github.com/DionCroft/morpheus-orbital/releases/download/v0.1.0-prototype/Morpheus-ORBITAL-v0.1.0-prototype.zip) · [Download the 18-sheet schematic PDF](docs/Morpheus-Schematic.pdf) · [Open in KiCad](#open-in-kicad) · [Find a component](#component-index) · [Download BOM CSV](Morpheus-BOM.csv) · [Populated STEP](docs/Morpheus-assembled.step) · [JLCPCB and bring-up checklist](docs/PROTOTYPE_CHECKLIST.md)
 
 <p align="center">
   <a href="docs/visuals/morpheus-orbital-front.png"><img src="docs/visuals/morpheus-orbital-front.png" alt="Upright component-side 3D render of Morpheus ORBITAL, with the antenna at the top and display FPC at the bottom" width="700"></a>
@@ -130,6 +130,8 @@ Every distinct manufacturer part number in the [reference BOM](Morpheus-BOM.csv)
 | `RT0603BRD071ML` | 1M resistor | Yageo | R810 |
 
 ## Prototype and reuse
+
+Use the [JLCPCB ordering and first-board bring-up checklist](docs/PROTOTYPE_CHECKLIST.md) to plan a prototype order and record the bench results.
 
 This is a reviewed CAD prototype. The full PCB DRC recorded zero unconnected items, three warnings and 50 reviewed footprint-parity records. Hardware qualification is open for USB impedance on the finished stackup, selective filled and capped vias, display bias and startup, battery and thermistor behaviour, display connector fit, RF performance, and assembly clearances. Verify those items against the actual parts and fabrication process before building.
 
