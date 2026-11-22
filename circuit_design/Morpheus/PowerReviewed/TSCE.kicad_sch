@@ -1,0 +1,98 @@
+(kicad_sch (version 20250114) (generator "eeschema") (uuid "22f1b2ec-781a-5b6c-89ca-be51c0ddb603") (paper "A3") (title_block (title "Autonomous cell TS / CE - HELD") (date "2026-10-12") (rev "HELD V2") (comment 1 "No charging, live integration or PCB approval.")) (lib_symbols (symbol "TSC:BOUNDARY" (pin_names (offset 1.016)) (in_bom yes) (on_board yes) (property "Reference" "U" (at 0 24.13 0) (effects (font (size 1.27 1.27)) )) (property "Value" "BOUNDARY" (at 0 -24.13 0) (effects (font (size 1.27 1.27)) )) (symbol "BOUNDARY_0_1" (rectangle (start -15.24 20.32) (end 15.24 -20.32) (stroke (width 0.254) (type default)) (fill (type background)))) (symbol "BOUNDARY_1_1" (pin passive line (at 20.32 15.24 180) (length 5.08) (name "ADAPTER5V" (effects (font (size 1.0 1.0)) )) (number "1" (effects (font (size 1.0 1.0)) ))) (pin passive line (at 20.32 10.16 180) (length 5.08) (name "SYS" (effects (font (size 1.0 1.0)) )) (number "2" (effects (font (size 1.0 1.0)) ))) (pin passive line (at 20.32 5.08 180) (length 5.08) (name "REGN" (effects (font (size 1.0 1.0)) )) (number "3" (effects (font (size 1.0 1.0)) ))) (pin passive line (at 20.32 0.0 180) (length 5.08) (name "GND" (effects (font (size 1.0 1.0)) )) (number "4" (effects (font (size 1.0 1.0)) ))) (pin passive line (at 20.32 -5.08 180) (length 5.08) (name "BQ25616_TS11" (effects (font (size 1.0 1.0)) )) (number "5" (effects (font (size 1.0 1.0)) ))) (pin passive line (at 20.32 -10.16 180) (length 5.08) (name "BQ25616_CE9_N" (effects (font (size 1.0 1.0)) )) (number "6" (effects (font (size 1.0 1.0)) ))) (pin passive line (at 20.32 -15.24 180) (length 5.08) (name "RELEASE_HELD_LOW" (effects (font (size 1.0 1.0)) )) (number "7" (effects (font (size 1.0 1.0)) )))))
+(symbol "TSC:FET_FUNCTION" (pin_names (offset 1.016)) (in_bom yes) (on_board yes) (property "Reference" "U" (at 0 11.43 0) (effects (font (size 1.27 1.27)) )) (property "Value" "FET_FUNCTION" (at 0 -11.43 0) (effects (font (size 1.27 1.27)) )) (symbol "FET_FUNCTION_0_1" (rectangle (start -15.24 7.62) (end 15.24 -7.62) (stroke (width 0.254) (type default)) (fill (type background)))) (symbol "FET_FUNCTION_1_1" (pin input line (at -20.32 2.54 0) (length 5.08) (name "G" (effects (font (size 1.0 1.0)) )) (number "G" (effects (font (size 1.0 1.0)) ))) (pin passive line (at -20.32 -2.54 0) (length 5.08) (name "S" (effects (font (size 1.0 1.0)) )) (number "S" (effects (font (size 1.0 1.0)) ))) (pin passive line (at 20.32 0.0 180) (length 5.08) (name "D" (effects (font (size 1.0 1.0)) )) (number "D" (effects (font (size 1.0 1.0)) )))))
+(symbol "TSC:NTC" (pin_names (offset 1.016)) (in_bom yes) (on_board yes) (property "Reference" "U" (at 0 6.35 0) (effects (font (size 1.27 1.27)) )) (property "Value" "NTC" (at 0 -6.35 0) (effects (font (size 1.27 1.27)) )) (symbol "NTC_0_1" (rectangle (start -3.81 2.54) (end 3.81 -2.54) (stroke (width 0.254) (type default)) (fill (type background)))) (symbol "NTC_1_1" (pin passive line (at -8.89 0 0) (length 5.08) (name "1" (effects (font (size 1.0 1.0)) )) (number "1" (effects (font (size 1.0 1.0)) ))) (pin passive line (at 8.89 0 180) (length 5.08) (name "2" (effects (font (size 1.0 1.0)) )) (number "2" (effects (font (size 1.0 1.0)) )))))
+(symbol "TSC:R" (pin_names (offset 1.016)) (in_bom yes) (on_board yes) (property "Reference" "U" (at 0 6.35 0) (effects (font (size 1.27 1.27)) )) (property "Value" "R" (at 0 -6.35 0) (effects (font (size 1.27 1.27)) )) (symbol "R_0_1" (rectangle (start -3.81 2.54) (end 3.81 -2.54) (stroke (width 0.254) (type default)) (fill (type background)))) (symbol "R_1_1" (pin passive line (at -8.89 0 0) (length 5.08) (name "1" (effects (font (size 1.0 1.0)) )) (number "1" (effects (font (size 1.0 1.0)) ))) (pin passive line (at 8.89 0 180) (length 5.08) (name "2" (effects (font (size 1.0 1.0)) )) (number "2" (effects (font (size 1.0 1.0)) )))))
+(symbol "TSC:SENSOR_HEADER" (pin_names (offset 1.016)) (in_bom yes) (on_board yes) (property "Reference" "U" (at 0 6.35 0) (effects (font (size 1.27 1.27)) )) (property "Value" "SENSOR_HEADER" (at 0 -6.35 0) (effects (font (size 1.27 1.27)) )) (symbol "SENSOR_HEADER_0_1" (rectangle (start -15.24 2.54) (end 15.24 -2.54) (stroke (width 0.254) (type default)) (fill (type background)))) (symbol "SENSOR_HEADER_1_1" (pin passive line (at -20.32 0 0) (length 5.08) (name "CELL_NTC" (effects (font (size 1.0 1.0)) )) (number "1" (effects (font (size 1.0 1.0)) ))) (pin passive line (at 20.32 0 180) (length 5.08) (name "RETURN" (effects (font (size 1.0 1.0)) )) (number "2" (effects (font (size 1.0 1.0)) )))))
+(symbol "TSC:DISABLE_HEADER" (pin_names (offset 1.016)) (in_bom yes) (on_board yes) (property "Reference" "U" (at 0 6.35 0) (effects (font (size 1.27 1.27)) )) (property "Value" "DISABLE_HEADER" (at 0 -6.35 0) (effects (font (size 1.27 1.27)) )) (symbol "DISABLE_HEADER_0_1" (rectangle (start -15.24 2.54) (end 15.24 -2.54) (stroke (width 0.254) (type default)) (fill (type background)))) (symbol "DISABLE_HEADER_1_1" (pin passive line (at -20.32 0 0) (length 5.08) (name "CE_DISABLE" (effects (font (size 1.0 1.0)) )) (number "1" (effects (font (size 1.0 1.0)) ))) (pin passive line (at 20.32 0 180) (length 5.08) (name "REGN" (effects (font (size 1.0 1.0)) )) (number "2" (effects (font (size 1.0 1.0)) ))))))
+(text "Morpheus - autonomous cell temperature / charge disable" (at 20 18 0) (effects (font (size 2.3 2.3)) (justify left)) (uuid "cf749d18-e6c8-543a-baae-66cd38868844"))
+(text "INTEGRATED FUNCTION REVIEW ONLY - converter/source/readout joined; qualification OPEN" (at 20 27 0) (effects (font (size 1.5 1.5)) (justify left)) (uuid "e6f11fd0-77ec-5266-a2ec-bc0db560422e"))
+(text "DEC-014 automatic policy: source and actual cell NTC still require qualification. No charging approval." (at 20 35 0) (effects (font (size 1.5 1.5)) (justify left)) (uuid "7386982d-e364-59c0-9b64-f5bc43914cf5"))
+(text "CELL TEMPERATURE" (at 20 46 0) (effects (font (size 1.6 1.6)) (justify left)) (uuid "6eca8c2f-f2b3-5eef-90a5-5ef1270b0264"))
+(text "HARDWARE CHARGE DISABLE" (at 158 46 0) (effects (font (size 1.6 1.6)) (justify left)) (uuid "19f1aecb-221f-5b69-8030-4c1764accea0"))
+(text "SOURCE / PHYSICAL GATES OPEN" (at 291 46 0) (effects (font (size 1.6 1.6)) (justify left)) (uuid "da828b69-0882-50c5-b220-00a4e94752d9"))
+(text "J603 open: automatic policy. Closed: CE tied to REGN for disable; analog/startup gates OPEN." (at 156 221 0) (effects (font (size 1.4 1.4)) (justify left)) (uuid "4ee6a095-3535-520c-8028-e0dc3b1f9073"))
+(text "J602 is a separate two-wire CELL-ATTACHED sensor; not an invented third battery lead." (at 20 273 0) (effects (font (size 1.4 1.4)) (justify left)) (uuid "8d4dc35f-f508-568b-9624-92a64e76a21b"))
+(text "Actual cell attachment, CE leakage/startup, source qualification and physical margins remain OPEN." (at 20 280 0) (effects (font (size 1.4 1.4)) (justify left)) (uuid "927728e8-b4b1-5798-8c0e-820d9d8da081"))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(symbol (lib_id "TSC:SENSOR_HEADER") (at 76.2 146.05 0) (unit 1) (in_bom yes) (on_board yes) (uuid "0b7ee044-eca8-5417-901d-3959c90ab09d") (property "Reference" "J602" (at 76.2 135.51000000000002 0) (effects (font (size 1.27 1.27)) ) ) (property "Value" "Cell NTC header - lands HELD" (at 76.2 139.51000000000002 0) (effects (font (size 1.27 1.27)) ) ) (property "Footprint" "Morpheus_Power_Reviewed:Harwin_M20-9990246" (at 76.2 146.05 0) (effects (font (size 1.27 1.27)) (hide yes)) )(property "ManufacturerPartNumber" "M20-9990246" (at 76.2 146.05 0) (effects (font (size 1.27 1.27)) (hide yes)) )  (property "Datasheet" "https://content.harwin.com/asset/640f59f4-1860-40fe-82ef-f2a104ffa7d8/DRG-00479-Technical-Drawing-Datasheet-M20-999-pdf.pdf" (at 76.2 146.05 0) (effects (font (size 1.27 1.27)) (hide yes)) ) (property "CandidateScope" "PRIMARY_HEADER_AND_MATING_SCREEN; NONPOLARISED_SERVICE_NTC_CONNECTORS; ASSEMBLY_ENCLOSURE_HELD" (at 76.2 146.05 0) (effects (font (size 1.27 1.27)) (hide yes)) ) (pin "1" (uuid "85691887-39af-5aef-b59e-fce8d84a1f3f")) (pin "2" (uuid "ee9bf48a-3954-5cb5-8b2a-75423871578b")) (instances (project "Morpheus" (path "/25065b1f-30b0-4776-a181-a8fc84e87552/2dd27c41-bdff-4bb0-90ff-78c611eb9506/91ef8b68-caa0-5953-8146-6e87456a8314/22f1b2ec-781a-5b6c-89ca-be51c0ddb603" (reference "J602") (unit 1)))))
+(wire (pts (xy 55.88 146.05) (xy 48.26 146.05)) (stroke (width 0) (type default)) (uuid "5ec99ede-bae4-54a4-8799-99c95685d252"))
+(global_label "C_TS11" (shape bidirectional) (at 48.26 146.05 180) (effects (font (size 1.0 1.0)) (justify right)) (uuid "d463fd0f-9687-5818-b931-3bcccd988c71"))
+(wire (pts (xy 96.52 146.05) (xy 104.14 146.05)) (stroke (width 0) (type default)) (uuid "2fdfa2bc-9e39-53d8-9085-58bfb80331de"))
+(global_label "C_AGND" (shape bidirectional) (at 104.14 146.05 0) (effects (font (size 1.0 1.0)) (justify left)) (uuid "bd935f8d-9058-50e9-b2af-843a6a531732"))
+(symbol (lib_id "TSC:NTC") (at 76.2 182.88 0) (unit 1) (in_bom no) (on_board no) (uuid "2e3a4fc9-98f5-5119-a339-39e920377e01") (property "Reference" "TH601" (at 76.2 172.34 0) (effects (font (size 1.27 1.27)) ) ) (property "Value" "B57861S0103F040 - OFFBOARD" (at 76.2 176.34 0) (effects (font (size 1.27 1.27)) ) ) (property "Footprint" "" (at 76.2 182.88 0) (effects (font (size 1.27 1.27)) (hide yes)) ) (property "Datasheet" "https://www.tdk-electronics.tdk.com/inf/50/db/ntc/NTC_Mini_sensors_S861.pdf" (at 76.2 182.88 0) (effects (font (size 1.27 1.27)) (hide yes)) ) (property "CandidateScope" "EXTERNAL_CELL_ATTACHMENT_NOT_QUALIFIED" (at 76.2 182.88 0) (effects (font (size 1.27 1.27)) (hide yes)) ) (pin "1" (uuid "afce94ff-3bae-524c-8401-c35fbe108c05")) (pin "2" (uuid "47a6b690-fe1e-5c0c-a4ca-d5c3fd1e5843")) (instances (project "Morpheus" (path "/25065b1f-30b0-4776-a181-a8fc84e87552/2dd27c41-bdff-4bb0-90ff-78c611eb9506/91ef8b68-caa0-5953-8146-6e87456a8314/22f1b2ec-781a-5b6c-89ca-be51c0ddb603" (reference "TH601") (unit 1)))))
+(wire (pts (xy 67.31 182.88) (xy 59.69 182.88)) (stroke (width 0) (type default)) (uuid "747f5827-6b94-58d2-af2c-c58eb88c7083"))
+(global_label "C_TS11" (shape bidirectional) (at 59.69 182.88 180) (effects (font (size 1.0 1.0)) (justify right)) (uuid "10baa95c-8841-55ce-9db5-fef5061d333b"))
+(wire (pts (xy 85.09 182.88) (xy 92.71 182.88)) (stroke (width 0) (type default)) (uuid "5ee925b4-1416-5eef-8ef7-887f12110faf"))
+(global_label "C_AGND" (shape bidirectional) (at 92.71 182.88 0) (effects (font (size 1.0 1.0)) (justify left)) (uuid "91ef66c7-ef5b-5de6-b598-f3171c86e93c"))
+(symbol (lib_id "TSC:R") (at 76.2 69.85 0) (unit 1) (in_bom yes) (on_board yes) (uuid "a831c19c-017e-58fa-8cfc-f795f282c355") (property "Reference" "R601" (at 76.2 59.309999999999995 0) (effects (font (size 1.27 1.27)) ) ) (property "Value" "5.9k 1%" (at 76.2 63.309999999999995 0) (effects (font (size 1.27 1.27)) ) ) (property "Footprint" "Morpheus_Power_Reviewed:R_0603_1608Metric" (at 76.2 69.85 0) (effects (font (size 1.27 1.27)) (hide yes)) )(property "ManufacturerPartNumber" "RC0603FR-075K9L" (at 76.2 69.85 0) (effects (font (size 1.27 1.27)) (hide yes)) )  (property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L" (at 76.2 69.85 0) (effects (font (size 1.27 1.27)) (hide yes)) ) (property "CandidateScope" "PRIMARY_RESISTOR_ORDERING_AND_PACKAGE_SCREEN; FITTED_POWER_TOLERANCE_PROCESS_HELD" (at 76.2 69.85 0) (effects (font (size 1.27 1.27)) (hide yes)) ) (pin "1" (uuid "ff7e46f8-cb03-5ca8-8785-821821767c30")) (pin "2" (uuid "3e4c4e63-8d8d-5309-b6d6-8c2e4bc6e480")) (instances (project "Morpheus" (path "/25065b1f-30b0-4776-a181-a8fc84e87552/2dd27c41-bdff-4bb0-90ff-78c611eb9506/91ef8b68-caa0-5953-8146-6e87456a8314/22f1b2ec-781a-5b6c-89ca-be51c0ddb603" (reference "R601") (unit 1)))))
+(wire (pts (xy 67.31 69.85) (xy 59.69 69.85)) (stroke (width 0) (type default)) (uuid "f3b4a037-0df8-5a63-ae15-9dfaebb906d8"))
+(global_label "C_REGN" (shape bidirectional) (at 59.69 69.85 180) (effects (font (size 1.0 1.0)) (justify right)) (uuid "1852e828-3391-5cd8-b86a-ff1f9d29214e"))
+(wire (pts (xy 85.09 69.85) (xy 92.71 69.85)) (stroke (width 0) (type default)) (uuid "bb462538-f492-5586-9c15-b12a3e1f4a51"))
+(global_label "C_TS11" (shape bidirectional) (at 92.71 69.85 0) (effects (font (size 1.0 1.0)) (justify left)) (uuid "d83e6081-018f-51bc-9fdf-fed8ace8d612"))
+(symbol (lib_id "TSC:R") (at 76.2 104.14 0) (unit 1) (in_bom yes) (on_board yes) (uuid "e395a4b8-0d9b-510a-a2d9-ff6f1a785446") (property "Reference" "R602" (at 76.2 93.6 0) (effects (font (size 1.27 1.27)) ) ) (property "Value" "46.4k 1%" (at 76.2 97.6 0) (effects (font (size 1.27 1.27)) ) ) (property "Footprint" "Morpheus_Power_Reviewed:R_0603_1608Metric" (at 76.2 104.14 0) (effects (font (size 1.27 1.27)) (hide yes)) )(property "ManufacturerPartNumber" "RC0603FR-0746K4L" (at 76.2 104.14 0) (effects (font (size 1.27 1.27)) (hide yes)) )  (property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L" (at 76.2 104.14 0) (effects (font (size 1.27 1.27)) (hide yes)) ) (property "CandidateScope" "PRIMARY_RESISTOR_ORDERING_AND_PACKAGE_SCREEN; FITTED_POWER_TOLERANCE_PROCESS_HELD" (at 76.2 104.14 0) (effects (font (size 1.27 1.27)) (hide yes)) ) (pin "1" (uuid "1acb2875-1bb9-5359-976c-b4588363cfb7")) (pin "2" (uuid "bc031d22-9a06-566a-862f-4a26f097b86c")) (instances (project "Morpheus" (path "/25065b1f-30b0-4776-a181-a8fc84e87552/2dd27c41-bdff-4bb0-90ff-78c611eb9506/91ef8b68-caa0-5953-8146-6e87456a8314/22f1b2ec-781a-5b6c-89ca-be51c0ddb603" (reference "R602") (unit 1)))))
+(wire (pts (xy 67.31 104.14) (xy 59.69 104.14)) (stroke (width 0) (type default)) (uuid "2cba51e2-61b2-5d3e-9715-ca7360a61548"))
+(global_label "C_TS11" (shape bidirectional) (at 59.69 104.14 180) (effects (font (size 1.0 1.0)) (justify right)) (uuid "a745112a-bffe-50d6-b0a4-c586e8992ede"))
+(wire (pts (xy 85.09 104.14) (xy 92.71 104.14)) (stroke (width 0) (type default)) (uuid "134525b3-76c6-5a85-86df-d1383ef175d4"))
+(global_label "C_AGND" (shape bidirectional) (at 92.71 104.14 0) (effects (font (size 1.0 1.0)) (justify left)) (uuid "c9607c55-d0b7-5135-b0fa-3e37f53a20fb"))
+
+
+
+
+
+
+
+
+
+
+(symbol (lib_id "TSC:R") (at 204.47 193.04 0) (unit 1) (in_bom yes) (on_board yes) (uuid "6db7cfa1-6e57-52a0-a49e-0eac9a3aaaf2") (property "Reference" "R605" (at 204.47 182.5 0) (effects (font (size 1.27 1.27)) ) ) (property "Value" "10k 1%" (at 204.47 186.5 0) (effects (font (size 1.27 1.27)) ) ) (property "Footprint" "Morpheus_Power_Reviewed:R_0603_1608Metric" (at 204.47 193.04 0) (effects (font (size 1.27 1.27)) (hide yes)) )(property "ManufacturerPartNumber" "RC0603FR-0710KL" (at 204.47 193.04 0) (effects (font (size 1.27 1.27)) (hide yes)) )  (property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L" (at 204.47 193.04 0) (effects (font (size 1.27 1.27)) (hide yes)) ) (property "CandidateScope" "PRIMARY_RESISTOR_ORDERING_AND_PACKAGE_SCREEN; FITTED_POWER_TOLERANCE_PROCESS_HELD" (at 204.47 193.04 0) (effects (font (size 1.27 1.27)) (hide yes)) ) (pin "1" (uuid "aa120939-5f58-5083-95c9-9a8a5cd5d223")) (pin "2" (uuid "6d7bb950-640a-56ec-8565-0a050d212e52")) (instances (project "Morpheus" (path "/25065b1f-30b0-4776-a181-a8fc84e87552/2dd27c41-bdff-4bb0-90ff-78c611eb9506/91ef8b68-caa0-5953-8146-6e87456a8314/22f1b2ec-781a-5b6c-89ca-be51c0ddb603" (reference "R605") (unit 1)))))
+(wire (pts (xy 195.58 193.04) (xy 187.96 193.04)) (stroke (width 0) (type default)) (uuid "86eb7c59-8e29-5a50-bbc4-c8c82103e78c"))
+(global_label "C_AGND" (shape bidirectional) (at 187.96 193.04 180) (effects (font (size 1.0 1.0)) (justify right)) (uuid "c54ed94f-ab99-5c12-aa2f-d81bf6fe746b"))
+(wire (pts (xy 213.36 193.04) (xy 220.98 193.04)) (stroke (width 0) (type default)) (uuid "b6fc6d3c-c87a-5dbb-a12c-3bf8e3a62657"))
+(global_label "C_CE9_N" (shape bidirectional) (at 220.98 193.04 0) (effects (font (size 1.0 1.0)) (justify left)) (uuid "1e6aa3ce-f124-53ed-964f-7ab68f20e020"))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(symbol (lib_id "TSC:DISABLE_HEADER") (at 204.47 110.49 0) (unit 1) (in_bom yes) (on_board yes) (uuid "3d898792-b895-55a1-b6c7-d886bc566a49") (property "Reference" "J603" (at 204.47 99.94999999999999 0) (effects (font (size 1.27 1.27)) ) ) (property "Value" "Disable charge jumper - HELD" (at 204.47 103.94999999999999 0) (effects (font (size 1.27 1.27)) ) ) (property "Footprint" "Morpheus_Power_Reviewed:Harwin_M20-9990246" (at 204.47 110.49 0) (effects (font (size 1.27 1.27)) (hide yes)) )(property "ManufacturerPartNumber" "M20-9990246" (at 204.47 110.49 0) (effects (font (size 1.27 1.27)) (hide yes)) )  (property "Datasheet" "https://content.harwin.com/asset/640f59f4-1860-40fe-82ef-f2a104ffa7d8/DRG-00479-Technical-Drawing-Datasheet-M20-999-pdf.pdf" (at 204.47 110.49 0) (effects (font (size 1.27 1.27)) (hide yes)) ) (property "CandidateScope" "PRIMARY_HEADER_AND_MATING_SCREEN; NONPOLARISED_SERVICE_NTC_CONNECTORS; ASSEMBLY_ENCLOSURE_HELD" (at 204.47 110.49 0) (effects (font (size 1.27 1.27)) (hide yes)) ) (pin "1" (uuid "21e6f001-cd99-5f86-b633-11a75edf5aa8")) (pin "2" (uuid "1c2a0d1f-4bf4-5808-b622-4e0f7d67e2cc")) (instances (project "Morpheus" (path "/559e7a56-2b86-551f-9491-626f32761219" (reference "J603") (unit 1)))))
+(wire (pts (xy 184.15 110.49) (xy 176.53 110.49)) (stroke (width 0) (type default)) (uuid "f3ed3286-19ac-5df2-89be-d71da77a23c6"))
+(global_label "C_CE9_N" (shape bidirectional) (at 176.53 110.49 180) (effects (font (size 1.0 1.0)) (justify right)) (uuid "befe7a3a-4c98-5c26-ae28-957a9b1e1576"))
+(wire (pts (xy 224.79 110.49) (xy 232.41 110.49)) (stroke (width 0) (type default)) (uuid "ae255eb0-ebf7-5681-a269-5ee314616f76"))
+(global_label "C_REGN" (shape bidirectional) (at 232.41 110.49 0) (effects (font (size 1.0 1.0)) (justify left)) (uuid "acba3918-2972-5487-853a-cf2e3e5769e6"))
+)

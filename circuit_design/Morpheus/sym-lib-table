@@ -1,0 +1,21 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "GDEP073E01")(type "KiCad")(uri "${KIPRJMOD}/../libraries/GDEP073E01_panel.kicad_sym")(options "")(descr "GDEP073E01 panel symbol"))
+  (lib (name "FPC50_C5362162")(type "KiCad")(uri "${KIPRJMOD}/../libraries/FPC50_C5362162.kicad_sym")(options "")(descr "C5362162 50-pin FPC connector symbol"))
+  (lib (name "BME690")(type "KiCad")(uri "${KIPRJMOD}/../libraries/BME690.kicad_sym")(options "")(descr "Bosch BME690 symbol"))
+  (lib (name "BQ25703")(type "KiCad")(uri "${KIPRJMOD}/../libraries/BQ25703.kicad_sym")(options "")(descr "TI BQ25703 symbol"))
+  (lib (name "TPS63020")(type "KiCad")(uri "${KIPRJMOD}/../libraries/TPS63020.kicad_sym")(options "")(descr "TI TPS63020 symbol"))
+  (lib (name "Morpheus")(type "KiCad")(uri "${KIPRJMOD}/../libraries/Morpheus_power.kicad_sym")(options "")(descr "Morpheus POWER custom symbols"))
+  (lib (name "MorpheusFlags")(type "KiCad")(uri "${KIPRJMOD}/../libraries/Morpheus_flags.kicad_sym")(options "")(descr "Non-global POWER output flag symbol"))
+  (lib (name "MorpheusSD")(type "KiCad")(uri "${KIPRJMOD}/../libraries/HRO_TF01A.kicad_sym")(options "")(descr "HRO TF01A contacts; physical shell/lands qualification held"))
+(lib (name "MorpheusUSB")(type "KiCad")(uri "${KIPRJMOD}/../libraries/Morpheus_USB.kicad_sym")(options "")(descr "Exact TI USB shunt protection primary"))
+
+(lib (name "SRC")(type "KiCad")(uri "${KIPRJMOD}/PowerReviewed/SRC.kicad_sym")(options "")(descr "Accepted project-local power primary functions/lands, whole candidate"))
+(lib (name "COR")(type "KiCad")(uri "${KIPRJMOD}/PowerReviewed/COR.kicad_sym")(options "")(descr "Accepted project-local power primary functions/lands, whole candidate"))
+(lib (name "MON")(type "KiCad")(uri "${KIPRJMOD}/PowerReviewed/MON.kicad_sym")(options "")(descr "Accepted project-local power primary functions/lands, whole candidate"))
+(lib (name "TSC")(type "KiCad")(uri "${KIPRJMOD}/PowerReviewed/TSC.kicad_sym")(options "")(descr "Accepted project-local power primary functions/lands, whole candidate"))
+(lib (name "QUAL")(type "KiCad")(uri "${KIPRJMOD}/PowerReviewed/QUAL.kicad_sym")(options "")(descr "Accepted project-local power primary functions/lands, whole candidate"))
+
+(lib (name "MorpheusEPDConnector")(type "KiCad")(uri "${KIPRJMOD}/../libraries/MorpheusEPDConnector.kicad_sym")(options "")(descr "Hirose FH34SRJ exact primary contacts/lands; no guessed mating approval"))
+(lib (name "MorpheusHiroseSD")(type "KiCad")(uri "${KIPRJMOD}/../libraries/MorpheusHiroseSD.kicad_sym")(options "")(descr "Exact Hirose8card contacts and separate unused detectorA/B/groundedSH"))
+)

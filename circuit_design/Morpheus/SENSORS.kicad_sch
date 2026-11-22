@@ -1,0 +1,1306 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "afad77af-3690-45f3-8de4-c9d06e2f1672")
+	(paper "A4")
+	(lib_symbols
+		(symbol "BME690:BME690"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "BME690"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Morpheus:BME690_LGA-8_3x3"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "${KIPRJMOD}/../../datasheets/BME690_BST-BME690-DS001_Bosch.pdf"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Bosch BME690 gas, humidity, pressure and temperature sensor, LGA-8, LCSC C42431867"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "BME690_1_1"
+				(rectangle
+					(start -5.08 11.43)
+					(end 5.08 -11.43)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at -7.62 8.89 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 6.35 0)
+					(length 2.54)
+					(name "CSB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -7.62 3.81 0)
+					(length 2.54)
+					(name "SDI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 1.27 0)
+					(length 2.54)
+					(name "SCK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -7.62 -1.27 0)
+					(length 2.54)
+					(name "SDO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -7.62 -3.81 0)
+					(length 2.54)
+					(name "VDDIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -7.62 -6.35 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -7.62 -8.89 0)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	
+	(hierarchical_label "GND"
+		(shape bidirectional)
+		(at 40.64 41.91 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "23d6657c-f134-45e0-a26a-32f5d80abf5d")
+	)
+	(hierarchical_label "3V3"
+		(shape bidirectional)
+		(at 78.74 62.23 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left)
+		)
+		(uuid "2d629220-76b7-4a4a-a2fc-68d596e4fc34")
+	)
+	(hierarchical_label "3V3"
+		(shape bidirectional)
+		(at 40.64 59.69 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "31a9b1c4-5b5d-483c-99ea-c292c9a453e0")
+	)
+	(hierarchical_label "BME_SCL"
+		(shape bidirectional)
+		(at 40.64 49.53 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "422ed3e8-63cc-4c0f-ba6d-bd6ddd743a3f")
+	)
+	(hierarchical_label "3V3"
+		(shape bidirectional)
+		(at 78.74 41.91 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left)
+		)
+		(uuid "5345765c-c983-4f1f-9705-1d19bc649e35")
+	)
+	(hierarchical_label "GND"
+		(shape bidirectional)
+		(at 78.74 69.85 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left)
+		)
+		(uuid "87e49a41-4ac5-4328-945e-2dfdf5ccf6dd")
+	)
+	(hierarchical_label "3V3"
+		(shape bidirectional)
+		(at 40.64 54.61 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "90aab501-9924-46b4-aada-5cbce1ba1080")
+	)
+	(hierarchical_label "BME_SDA"
+		(shape bidirectional)
+		(at 40.64 46.99 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "912f76de-b0fd-4548-b0fa-4842f2769779")
+	)
+	
+	
+	(hierarchical_label "GND"
+		(shape bidirectional)
+		(at 40.64 57.15 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "a19f302f-394d-4a58-a510-276c410c33b8")
+	)
+	(hierarchical_label "GND"
+		(shape bidirectional)
+		(at 78.74 80.01 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left)
+		)
+		(uuid "a3594024-17f3-45d2-885e-b0175a8dd2d7")
+	)
+	
+	(hierarchical_label "3V3"
+		(shape bidirectional)
+		(at 78.74 52.07 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left)
+		)
+		(uuid "ad5c912b-7b5b-419e-9cb9-2eddd3f6cafe")
+	)
+	(hierarchical_label "3V3"
+		(shape bidirectional)
+		(at 40.64 44.45 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "b515cf39-aaa3-4591-b197-e7c7a76e9ae7")
+	)
+	(hierarchical_label "GND"
+		(shape bidirectional)
+		(at 78.74 49.53 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left)
+		)
+		(uuid "c08ef202-63ef-4e33-9113-878eafa4a8e3")
+	)
+	(hierarchical_label "3V3"
+		(shape bidirectional)
+		(at 78.74 72.39 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left)
+		)
+		(uuid "c09f68d0-618d-4bd2-8191-92b1b0e4eaf1")
+	)
+	(hierarchical_label "GND"
+		(shape bidirectional)
+		(at 78.74 59.69 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left)
+		)
+		(uuid "f8e21695-d4e9-45af-97d1-4fd5f34ebb34")
+	)
+	(hierarchical_label "3V3"
+		(shape bidirectional)
+		(at 40.64 52.07 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "ff3e9666-5510-4d74-9b48-70b7027f3f86")
+	)
+	
+	(symbol
+		(lib_id "Device:C")
+		(at 76.2 55.88 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1e255c0c-cd25-4e95-b2dc-a63a4a917731")
+		(property "Reference" "C22"
+			(at 71.12 54.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF"
+			(at 71.12 57.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Morpheus_Power_Reviewed:Samsung_C0603"
+			(at 76.2 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL10B104KB8NNN.do"
+			(at 76.2 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 76.2 55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bc472fff-ffda-48a6-96c9-60a8fb05bd95")
+		)
+		(pin "2"
+			(uuid "e5dc597a-ab27-4fd8-a507-93b48df6aa7f")
+		)
+		
+(property "ManufacturerPartNumber" "CL10B104KB8NNNC" (at 76.2 55.88 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "Manufacturer" "Samsung Electro-Mechanics" (at 76.2 55.88 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "RatedVoltage" "50V" (at 76.2 55.88 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "Dielectric" "X7R" (at 76.2 55.88 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "CapacitanceTolerance" "10%" (at 76.2 55.88 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "CandidateScope" "EXACT_PRIMARY_NOMINAL_PRESERVED; EFFECTIVE_C_LOOP_ASSEMBLY_QUALIFICATION_HELD" (at 76.2 55.88 0) (hide yes) (effects (font (size 1.27 1.27))))
+(instances
+			(project "Morpheus"
+				(path "/25065b1f-30b0-4776-a181-a8fc84e87552/b8b3c931-2719-4327-a543-2d0a2cebc6fa"
+					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 76.2 66.04 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2075bd53-8cc0-4bb8-9da1-f4f2c5e9bb10")
+		(property "Reference" "C23"
+			(at 71.12 64.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1uF"
+			(at 71.12 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Morpheus_Power_Reviewed:Samsung_C0805"
+			(at 76.2 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL21B105KBFNNN.do"
+			(at 76.2 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 76.2 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8d61460a-663e-4d17-8c40-65542422c9c5")
+		)
+		(pin "2"
+			(uuid "80866ee4-9e96-4207-bac5-66899daa859f")
+		)
+		
+(property "ManufacturerPartNumber" "CL21B105KBFNNNE" (at 76.2 66.04 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "Manufacturer" "Samsung Electro-Mechanics" (at 76.2 66.04 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "RatedVoltage" "50V" (at 76.2 66.04 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "Dielectric" "X7R" (at 76.2 66.04 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "CapacitanceTolerance" "10%" (at 76.2 66.04 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "CandidateScope" "EXACT_PRIMARY_NOMINAL_PRESERVED; EFFECTIVE_C_LOOP_ASSEMBLY_QUALIFICATION_HELD" (at 76.2 66.04 0) (hide yes) (effects (font (size 1.27 1.27))))
+(instances
+			(project "Morpheus"
+				(path "/25065b1f-30b0-4776-a181-a8fc84e87552/b8b3c931-2719-4327-a543-2d0a2cebc6fa"
+					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 76.2 45.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "37c8bf42-3c44-442f-9e0d-23a5676ecda4")
+		(property "Reference" "C21"
+			(at 71.12 44.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF"
+			(at 71.12 46.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Morpheus_Power_Reviewed:Samsung_C0603"
+			(at 76.2 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL10B104KB8NNN.do"
+			(at 76.2 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 76.2 45.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dd9d57a5-b825-4534-ade0-2109952e787b")
+		)
+		(pin "2"
+			(uuid "20280eb5-3ffd-47a9-b867-7830894016ea")
+		)
+		
+(property "ManufacturerPartNumber" "CL10B104KB8NNNC" (at 76.2 45.72 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "Manufacturer" "Samsung Electro-Mechanics" (at 76.2 45.72 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "RatedVoltage" "50V" (at 76.2 45.72 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "Dielectric" "X7R" (at 76.2 45.72 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "CapacitanceTolerance" "10%" (at 76.2 45.72 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "CandidateScope" "EXACT_PRIMARY_NOMINAL_PRESERVED; EFFECTIVE_C_LOOP_ASSEMBLY_QUALIFICATION_HELD" (at 76.2 45.72 0) (hide yes) (effects (font (size 1.27 1.27))))
+(instances
+			(project "Morpheus"
+				(path "/25065b1f-30b0-4776-a181-a8fc84e87552/b8b3c931-2719-4327-a543-2d0a2cebc6fa"
+					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 76.2 76.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "88e88a4a-901f-49d5-9782-fdcfdf4164ee")
+		(property "Reference" "C24"
+			(at 71.12 74.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1uF"
+			(at 71.12 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Morpheus_Power_Reviewed:Samsung_C0805"
+			(at 76.2 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL21B105KBFNNN.do"
+			(at 76.2 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 76.2 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c9b7c088-2cc4-4bf4-bebe-3de6448281bc")
+		)
+		(pin "1"
+			(uuid "777059a5-c63d-4bb9-b15e-6d9376256b6b")
+		)
+		
+(property "ManufacturerPartNumber" "CL21B105KBFNNNE" (at 76.2 76.2 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "Manufacturer" "Samsung Electro-Mechanics" (at 76.2 76.2 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "RatedVoltage" "50V" (at 76.2 76.2 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "Dielectric" "X7R" (at 76.2 76.2 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "CapacitanceTolerance" "10%" (at 76.2 76.2 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "CandidateScope" "EXACT_PRIMARY_NOMINAL_PRESERVED; EFFECTIVE_C_LOOP_ASSEMBLY_QUALIFICATION_HELD" (at 76.2 76.2 0) (hide yes) (effects (font (size 1.27 1.27))))
+(instances
+			(project "Morpheus"
+				(path "/25065b1f-30b0-4776-a181-a8fc84e87552/b8b3c931-2719-4327-a543-2d0a2cebc6fa"
+					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BME690:BME690")
+		(at 50.8 50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bf3538ec-a022-4866-8d66-8e97b5b64fae")
+		(property "Reference" "U3"
+			(at 50.8 34.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BME690 (I2C 0x77)"
+			(at 50.8 36.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Morpheus:Bosch_BME690_Primary_Top"
+			(at 50.8 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bme690-ds001.pdf"
+			(at 50.8 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 50.8 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "89a88fb4-8abf-44ac-8dd2-7d934f007498")
+		)
+		(pin "2"
+			(uuid "6aa4e205-d1be-48a9-8126-49cebae9a35c")
+		)
+		(pin "5"
+			(uuid "635dc6d6-9936-49b9-b4c2-bd66ca828efb")
+		)
+		(pin "7"
+			(uuid "dfb2990f-b718-4b36-a779-86c0d7b9b0ea")
+		)
+		(pin "3"
+			(uuid "26823331-84a3-4d12-befd-8e81d7414a46")
+		)
+		(pin "1"
+			(uuid "c30e25dc-f2c8-492f-8fc7-2c737d59fce0")
+		)
+		(pin "8"
+			(uuid "164b3825-61c9-4467-934e-8f7a21bb4cd0")
+		)
+		(pin "6"
+			(uuid "9e0947f8-89cc-4494-8dc4-e059a1cb13dc")
+		)
+		
+(property "ManufacturerPartNumber" "BME690" (at 50.8 50.8 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "Manufacturer" "Bosch Sensortec" (at 50.8 50.8 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "ManufacturerSalesPartNumber" "0273017048" (at 50.8 50.8 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "LCSC" "C42431867" (at 50.8 50.8 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "PinMapBasis" "EXACT_BOSCH_CLOCKWISE_TOPVIEW_1TOPRIGHT_4BOTTOMRIGHT_5BOTTOMLEFT_8TOPLEFT" (at 50.8 50.8 0) (hide yes) (effects (font (size 1.27 1.27))))
+
+(property "CandidateScope" "PRIMARY_DS001_04_COPPER0.40SQUARE_MASK0.60; PASTE_PROJECT_EQUAL_COPPER_NOT50UM_ASSEMBLED_JOINT_PROOF" (at 50.8 50.8 0) (hide yes) (effects (font (size 1.27 1.27))))
+(instances
+			(project "Morpheus"
+				(path "/25065b1f-30b0-4776-a181-a8fc84e87552/b8b3c931-2719-4327-a543-2d0a2cebc6fa"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+
+	
+	(wire
+		(pts (xy 43.18 41.91) (xy 40.64 41.91))
+		(stroke (width 0) (type default))
+		(uuid "f253a7ce-8277-58d8-bfca-91da2d49abb4")
+	)
+	(wire
+		(pts (xy 76.2 62.23) (xy 78.74 62.23))
+		(stroke (width 0) (type default))
+		(uuid "a0cebbc3-9c88-50dd-b7ff-8952ebd26e47")
+	)
+	(wire
+		(pts (xy 43.18 59.69) (xy 40.64 59.69))
+		(stroke (width 0) (type default))
+		(uuid "0d55f42b-c80e-5b31-ad36-e0049293034e")
+	)
+	(wire
+		(pts (xy 43.18 49.53) (xy 40.64 49.53))
+		(stroke (width 0) (type default))
+		(uuid "bd7369be-d76e-5040-9a21-64d892d9cf65")
+	)
+	(wire
+		(pts (xy 76.2 41.91) (xy 78.74 41.91))
+		(stroke (width 0) (type default))
+		(uuid "432e4fdc-91c3-5a55-91b4-29e7add058f8")
+	)
+	(wire
+		(pts (xy 76.2 69.85) (xy 78.74 69.85))
+		(stroke (width 0) (type default))
+		(uuid "70fe2e5c-0962-5ed3-8b3c-de97cd134d55")
+	)
+	(wire
+		(pts (xy 43.18 54.61) (xy 40.64 54.61))
+		(stroke (width 0) (type default))
+		(uuid "3e5fa7c7-b3e3-5557-b980-47f3e58b25d3")
+	)
+	(wire
+		(pts (xy 43.18 46.99) (xy 40.64 46.99))
+		(stroke (width 0) (type default))
+		(uuid "829d18fb-354b-5e0a-a4f0-b39c3643bb5d")
+	)
+	
+	
+	(wire
+		(pts (xy 43.18 57.15) (xy 40.64 57.15))
+		(stroke (width 0) (type default))
+		(uuid "705dc2de-04e7-5932-a1e3-b2a319ff4bfa")
+	)
+	(wire
+		(pts (xy 76.2 80.01) (xy 78.74 80.01))
+		(stroke (width 0) (type default))
+		(uuid "7d00d850-015c-5afe-a478-8ba478cc060e")
+	)
+	
+	(wire
+		(pts (xy 76.2 52.07) (xy 78.74 52.07))
+		(stroke (width 0) (type default))
+		(uuid "49391df7-f7ea-5bd8-af7c-1972c4511530")
+	)
+	(wire
+		(pts (xy 43.18 44.45) (xy 40.64 44.45))
+		(stroke (width 0) (type default))
+		(uuid "29c04e18-7fa4-5c96-8e72-28146ce55d44")
+	)
+	(wire
+		(pts (xy 76.2 49.53) (xy 78.74 49.53))
+		(stroke (width 0) (type default))
+		(uuid "601b95fa-f70a-5f08-ba35-f0be21538bc3")
+	)
+	(wire
+		(pts (xy 76.2 72.39) (xy 78.74 72.39))
+		(stroke (width 0) (type default))
+		(uuid "3585ebf5-4a6f-57e8-ae04-b6d1470fa0b0")
+	)
+	(wire
+		(pts (xy 76.2 59.69) (xy 78.74 59.69))
+		(stroke (width 0) (type default))
+		(uuid "1f0d64fc-2b5e-5698-9eb2-25594f53061a")
+	)
+	(wire
+		(pts (xy 43.18 52.07) (xy 40.64 52.07))
+		(stroke (width 0) (type default))
+		(uuid "da85069c-8aaa-5783-adc6-59735e017f89")
+	)
+
+(symbol (lib_id "Device:R") (at 120.65 50.8 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "c06df7a3-f0d7-5320-81d1-755096d5abcf")
+(property "Reference" "R1006" (at 123.19000000000001 49.529999999999994 0) (effects (font (size 1.27 1.27)) (justify left)))
+(property "Value" "2.2k 1%" (at 123.19000000000001 52.07 0) (effects (font (size 1.27 1.27)) (justify left)))
+(property "Footprint" "Morpheus_Power_Reviewed:R_0603_1608Metric" (at 120.65 50.8 0) (effects (font (size 1.27 1.27)) ) (hide yes))
+(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-072K2L" (at 120.65 50.8 0) (effects (font (size 1.27 1.27)) ) (hide yes))
+(property "ManufacturerPartNumber" "RC0603FR-072K2L" (at 120.65 50.8 0) (effects (font (size 1.27 1.27)) ) (hide yes))
+(property "Manufacturer" "Yageo" (at 120.65 50.8 0) (effects (font (size 1.27 1.27)) ) (hide yes))
+(property "CandidateScope" "SECOND_INDEPENDENT_BME_I2C_PULLUP_PAIR_ACTUAL_BUS_QUALIFICATION_HELD" (at 120.65 50.8 0) (effects (font (size 1.27 1.27)) ) (hide yes))
+(pin "1" (uuid "b29c0ae0-678a-59d9-8d26-a071d749bb35"))
+(pin "2" (uuid "c45e18b7-f779-5f7c-b308-cd3b6d94988b"))
+(instances (project "Morpheus" (path "/25065b1f-30b0-4776-a181-a8fc84e87552/b8b3c931-2719-4327-a543-2d0a2cebc6fa" (reference "R1006") (unit 1)))))
+(wire (pts (xy 120.65 46.99) (xy 113.03 46.99)) (stroke (width 0) (type default)) (uuid "20a64ebc-07fb-5d68-b79a-551086a1c80f"))
+(hierarchical_label "3V3" (shape bidirectional) (at 113.03 46.99 180) (effects (font (size 1.27 1.27)) (justify right)) (uuid "a371e8f6-15f3-5a1c-a72e-dd0249ef2c78"))
+(wire (pts (xy 120.65 54.61) (xy 113.03 54.61)) (stroke (width 0) (type default)) (uuid "3da6b128-1c81-54ef-aa7e-33378bbf449e"))
+(hierarchical_label "BME_SDA" (shape bidirectional) (at 113.03 54.61 180) (effects (font (size 1.27 1.27)) (justify right)) (uuid "73681bd0-7e12-5922-b2ac-295144c98006"))
+(symbol (lib_id "Device:R") (at 161.29 50.8 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "f3090d18-c9e6-5d91-bd01-98cf45a2ce3e")
+(property "Reference" "R1007" (at 163.82999999999998 49.529999999999994 0) (effects (font (size 1.27 1.27)) (justify left)))
+(property "Value" "2.2k 1%" (at 163.82999999999998 52.07 0) (effects (font (size 1.27 1.27)) (justify left)))
+(property "Footprint" "Morpheus_Power_Reviewed:R_0603_1608Metric" (at 161.29 50.8 0) (effects (font (size 1.27 1.27)) ) (hide yes))
+(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-072K2L" (at 161.29 50.8 0) (effects (font (size 1.27 1.27)) ) (hide yes))
+(property "ManufacturerPartNumber" "RC0603FR-072K2L" (at 161.29 50.8 0) (effects (font (size 1.27 1.27)) ) (hide yes))
+(property "Manufacturer" "Yageo" (at 161.29 50.8 0) (effects (font (size 1.27 1.27)) ) (hide yes))
+(property "CandidateScope" "SECOND_INDEPENDENT_BME_I2C_PULLUP_PAIR_ACTUAL_BUS_QUALIFICATION_HELD" (at 161.29 50.8 0) (effects (font (size 1.27 1.27)) ) (hide yes))
+(pin "1" (uuid "720b9cce-eb05-52b0-b2c4-d263db343742"))
+(pin "2" (uuid "a0354c55-d3e7-51e8-a8e7-c459a4856ed4"))
+(instances (project "Morpheus" (path "/25065b1f-30b0-4776-a181-a8fc84e87552/b8b3c931-2719-4327-a543-2d0a2cebc6fa" (reference "R1007") (unit 1)))))
+(wire (pts (xy 161.29 46.99) (xy 153.67 46.99)) (stroke (width 0) (type default)) (uuid "582ec924-114c-570f-9aa0-f20eb07d9b91"))
+(hierarchical_label "3V3" (shape bidirectional) (at 153.67 46.99 180) (effects (font (size 1.27 1.27)) (justify right)) (uuid "592e6ab6-f715-5a17-ac1c-61722c9367b5"))
+(wire (pts (xy 161.29 54.61) (xy 153.67 54.61)) (stroke (width 0) (type default)) (uuid "9737b89c-9818-59cc-9676-74ca81ae6f51"))
+(hierarchical_label "BME_SCL" (shape bidirectional) (at 153.67 54.61 180) (effects (font (size 1.27 1.27)) (justify right)) (uuid "3a69e5aa-adfa-5f50-a82b-e85f26e10ea6"))
+(text "BME only: second I2C controller / GPIO12 SDA, GPIO13 SCL / address0x77." (at 20.32 105.41 0) (effects (font (size 1.27 1.27)) (justify left)) (uuid "0652d72f-a717-5581-9a57-1bbb565ffbe8"))
+(text "Separate2.2k pair. Initially<=100kHz; each busCb<=100pF and tr/tf<=300ns must qualify." (at 20.32 115.57 0) (effects (font (size 1.27 1.27)) (justify left)) (uuid "1cb41ea4-c3e7-5b13-95b1-6c5c548c2f22"))
+)

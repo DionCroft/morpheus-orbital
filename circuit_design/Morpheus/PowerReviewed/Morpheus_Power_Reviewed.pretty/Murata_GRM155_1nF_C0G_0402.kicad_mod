@@ -1,0 +1,118 @@
+(footprint "Murata_GRM155_1nF_C0G_0402"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Murata GRM1555C1H102JA01D reference Jun2026 p2/p27 Table2 REFLOW GRM15: a innergap0.4,b landX0.4,c landY0.5mm. C0G1nF50V+/-5%; nonpolar. .025mask/1:1paste andactualSET assembly process still unqualified. No unverified3D.")
+	(tags "capacitor nonpolar C0G 1nF 50V 0402 Murata")
+	(property "Reference" "REF**"
+		(at 0 -1.8 0)
+		(layer "F.SilkS")
+		(uuid "cfd73626-a4b7-4bec-b34f-13db8a1a74c8")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "1n/50V C0G"
+		(at 0 1.8 0)
+		(layer "F.Fab")
+		(uuid "54fb6b27-5fa8-4302-a21b-48a8a32d896a")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "12892bd9-a893-4d9a-a080-92841716cbfd")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "89c3c342-28f6-48bd-be27-9bb5dfe65fd9")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.2 -0.475)
+		(end 0.2 -0.475)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a596118c-4f9b-47eb-9f47-a79d9286f9fe")
+	)
+	(fp_line
+		(start -0.2 0.475)
+		(end 0.2 0.475)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "cff3eb70-a96a-4cca-af84-7d16abf2e2a9")
+	)
+	(fp_rect
+		(start -0.85 -0.525)
+		(end 0.85 0.525)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "d7edbb69-38db-4105-9219-d70096a7b4ef")
+	)
+	(fp_rect
+		(start -0.5 -0.25)
+		(end 0.5 0.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "d88bf22c-092f-429e-a860-36e3f34a0e64")
+	)
+	(pad "1" smd rect
+		(at -0.4 0)
+		(size 0.4 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.025)
+		(thermal_bridge_angle 45)
+		(uuid "435d9e01-1cc9-4d60-a51d-6a45eaff59bb")
+	)
+	(pad "2" smd rect
+		(at 0.4 0)
+		(size 0.4 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.025)
+		(thermal_bridge_angle 45)
+		(uuid "96317dcf-bcc7-4e07-aae4-919cf13edd40")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
+	)
+)

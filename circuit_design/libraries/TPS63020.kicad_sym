@@ -1,0 +1,48 @@
+(kicad_symbol_lib
+	(version 20250316)
+	(generator "kicad-mcp-symbol-gen")
+	(symbol "TPS63020"
+		(pin_names (offset 1.016))
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 0 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "TPS63020"
+			(at 0 -2.54 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" "Morpheus:TPS63020_DSJ-14"
+			(at 0 -5.08 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "${KIPRJMOD}/../../datasheets/TPS63020_TI_datasheet.pdf"
+			(at 0 -7.62 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Description" "TI TPS63020 adjustable synchronous buck-boost converter, VSON-14 DSJ, LCSC C15483"
+			(at 0 -10.16 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(symbol "TPS63020_1_1"
+			(rectangle (start -5.0800 20.3200) (end 5.0800 -20.3200) (stroke (width 0)(type default)) (fill (type background)))
+			(pin power_in line (at -7.6200 17.7800 0) (length 2.5400) (name "VINA" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+			(pin power_in line (at -7.6200 15.2400 0) (length 2.5400) (name "GND" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+			(pin input line (at -7.6200 12.7000 0) (length 2.5400) (name "FB" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27)))))
+			(pin power_out line (at -7.6200 10.1600 0) (length 2.5400) (name "VOUT" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27)))))
+			(pin power_in line (at -7.6200 7.6200 0) (length 2.5400) (name "VOUT" (effects (font (size 1.27 1.27)))) (number "5" (effects (font (size 1.27 1.27)))))
+			(pin passive line (at -7.6200 5.0800 0) (length 2.5400) (name "L2" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27)))))
+			(pin passive line (at -7.6200 2.5400 0) (length 2.5400) (name "L2" (effects (font (size 1.27 1.27)))) (number "7" (effects (font (size 1.27 1.27)))))
+			(pin passive line (at -7.6200 0.0000 0) (length 2.5400) (name "L1" (effects (font (size 1.27 1.27)))) (number "8" (effects (font (size 1.27 1.27)))))
+			(pin passive line (at -7.6200 -2.5400 0) (length 2.5400) (name "L1" (effects (font (size 1.27 1.27)))) (number "9" (effects (font (size 1.27 1.27)))))
+			(pin power_in line (at -7.6200 -5.0800 0) (length 2.5400) (name "VIN" (effects (font (size 1.27 1.27)))) (number "10" (effects (font (size 1.27 1.27)))))
+			(pin power_in line (at -7.6200 -7.6200 0) (length 2.5400) (name "VIN" (effects (font (size 1.27 1.27)))) (number "11" (effects (font (size 1.27 1.27)))))
+			(pin input line (at -7.6200 -10.1600 0) (length 2.5400) (name "EN" (effects (font (size 1.27 1.27)))) (number "12" (effects (font (size 1.27 1.27)))))
+			(pin input line (at -7.6200 -12.7000 0) (length 2.5400) (name "PS/SYNC" (effects (font (size 1.27 1.27)))) (number "13" (effects (font (size 1.27 1.27)))))
+			(pin open_collector line (at -7.6200 -15.2400 0) (length 2.5400) (name "PG" (effects (font (size 1.27 1.27)))) (number "14" (effects (font (size 1.27 1.27)))))
+			(pin power_in line (at -7.6200 -17.7800 0) (length 2.5400) (name "EP" (effects (font (size 1.27 1.27)))) (number "15" (effects (font (size 1.27 1.27)))))
+		)
+	)
+)

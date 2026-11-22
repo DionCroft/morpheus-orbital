@@ -1,0 +1,44 @@
+(version 1)
+
+# ORBITAL268: no geometry/project/severity/exclusion changes.
+# Width optima are routing preferences, NOT current or impedance approval.
+# Mixed power/Kelvin/sense nets require separately reviewed physical paths.
+
+(rule "ORBITAL copper clearance floor"
+    (constraint clearance (min 0.20mm)))
+
+(rule "ORBITAL track floor and ordinary signal preference"
+    (constraint track_width (min 0.20mm) (opt 0.20mm)))
+
+(rule "ORBITAL wide power preference NOT ampacity approval"
+    (condition "A.NetName == 'C_USB_RAW' || A.NetName == 'C_USB_QUAL' || A.NetName == 'C_SYS' || A.NetName == '3V3' || A.NetName == 'C_PACK_P' || A.NetName == 'C_BAT_MON' || A.NetName == 'C_PMID' || A.NetName == 'C_SW' || A.NetName == 'C_L1' || A.NetName == 'C_L2'")
+    (constraint track_width (min 0.20mm) (opt 0.80mm)))
+
+(rule "ORBITAL local supply and bootstrap preference"
+    (condition "A.NetName == 'C_AUX_IN' || A.NetName == 'C_CC3V3' || A.NetName == 'C_REGN' || A.NetName == 'C_BTST'")
+    (constraint track_width (min 0.20mm) (opt 0.30mm)))
+
+(rule "ORBITAL through via geometry"
+    (condition "A.Type == 'Via'")
+    (constraint via_diameter (min 0.60mm) (opt 0.60mm) (max 0.60mm))
+    (constraint hole_size (min 0.30mm) (opt 0.30mm) (max 0.30mm))
+    (constraint assertion "A.Via_Type == 'Through'"))
+
+(rule "ORBITAL no micro blind or buried vias"
+    (constraint disallow micro_via blind_via buried_via))
+
+(rule "ORBITAL In1 ground plane no routed tracks"
+    (layer In1.Cu)
+    (constraint disallow track))
+
+(rule "ORBITAL In4 held no routed tracks"
+    (layer In4.Cu)
+    (constraint disallow track))
+
+(rule "ORBITAL all components front"
+    (layer B.Cu)
+    (constraint disallow footprint))
+
+(rule "ORBITAL no routes on retained no-connect or netless objects"
+    (condition "A.NetName == 'unconnected-*' || A.NetName == ''")
+    (constraint disallow track via))

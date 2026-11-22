@@ -1,0 +1,39 @@
+(kicad_sch (version 20250114) (generator "eeschema") (uuid "af5900c3-9210-5ae0-a281-d35d977a6c8d") (paper "A3") (title_block (title "Power engine - whole schematic candidate") (date "2026-10-15") (rev "DRAFT JOIN90") (comment 1 "No live, charging, physical or PCB approval")) (lib_symbols)
+(text "Morpheus - reviewed power engine" (at 20 18 0) (effects (font (size 2.3 2.3)) (justify left)) (uuid "59116513-3890-5d11-8865-40bcb56d2fd4"))
+(text "DEC-013/014: >=1.5A startup / automatic charge policy. Isolated only; no charging approval." (at 20 29 0) (effects (font (size 1.4 1.4)) (justify left)) (uuid "acddaaf5-16d1-5fe3-80a1-7454665d971d"))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(sheet (at 157.48 50.8) (size 110.49 15.24) (stroke (width 0.254) (type default)) (fill (color 0 0 0 0)) (uuid "b2cea905-eda2-551d-ad61-8d656a313c21") (property "Sheetname" "SRC_CC" (at 157.48 48.26 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Sheetfile" "SRC_CC.kicad_sch" (at 157.48 68.58 0) (effects (font (size 1.27 1.27)) (justify left))) (instances (project "Morpheus" (path "/25065b1f-30b0-4776-a181-a8fc84e87552/2dd27c41-bdff-4bb0-90ff-78c611eb9506/91ef8b68-caa0-5953-8146-6e87456a8314" (page "4")))))
+(sheet (at 157.48 83.82) (size 110.49 15.24) (stroke (width 0.254) (type default)) (fill (color 0 0 0 0)) (uuid "a4593444-524a-5ff2-adbd-86eba2cb7553") (property "Sheetname" "SRC_GATE" (at 157.48 81.27999999999999 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Sheetfile" "SRC_GATE.kicad_sch" (at 157.48 101.6 0) (effects (font (size 1.27 1.27)) (justify left))) (instances (project "Morpheus" (path "/25065b1f-30b0-4776-a181-a8fc84e87552/2dd27c41-bdff-4bb0-90ff-78c611eb9506/91ef8b68-caa0-5953-8146-6e87456a8314" (page "5")))))
+(sheet (at 157.48 116.84) (size 110.49 15.24) (stroke (width 0.254) (type default)) (fill (color 0 0 0 0)) (uuid "a31aa108-4bd5-5a1f-8ef1-7fddef0759bc") (property "Sheetname" "SRC_BOOT" (at 157.48 114.3 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Sheetfile" "SRC_BOOT.kicad_sch" (at 157.48 134.62 0) (effects (font (size 1.27 1.27)) (justify left))) (instances (project "Morpheus" (path "/25065b1f-30b0-4776-a181-a8fc84e87552/2dd27c41-bdff-4bb0-90ff-78c611eb9506/91ef8b68-caa0-5953-8146-6e87456a8314" (page "6")))))
+(sheet (at 157.48 149.86) (size 110.49 15.24) (stroke (width 0.254) (type default)) (fill (color 0 0 0 0)) (uuid "2b5d594b-77d2-59a5-9444-4244389f8420") (property "Sheetname" "SRC_SUPPLY" (at 157.48 147.32000000000002 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Sheetfile" "SRC_SUPPLY.kicad_sch" (at 157.48 167.64000000000001 0) (effects (font (size 1.27 1.27)) (justify left))) (instances (project "Morpheus" (path "/25065b1f-30b0-4776-a181-a8fc84e87552/2dd27c41-bdff-4bb0-90ff-78c611eb9506/91ef8b68-caa0-5953-8146-6e87456a8314" (page "7")))))
+(sheet (at 157.48 182.88) (size 110.49 15.24) (stroke (width 0.254) (type default)) (fill (color 0 0 0 0)) (uuid "984b72f3-02da-572f-abfd-f566f90e2e68") (property "Sheetname" "COR_CORE" (at 157.48 180.34 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Sheetfile" "COR_CORE.kicad_sch" (at 157.48 200.66 0) (effects (font (size 1.27 1.27)) (justify left))) (instances (project "Morpheus" (path "/25065b1f-30b0-4776-a181-a8fc84e87552/2dd27c41-bdff-4bb0-90ff-78c611eb9506/91ef8b68-caa0-5953-8146-6e87456a8314" (page "8")))))
+(sheet (at 281.94 50.8) (size 110.49 15.24) (stroke (width 0.254) (type default)) (fill (color 0 0 0 0)) (uuid "cdbbdcd4-4ab2-530e-87bf-1b67cff128cb") (property "Sheetname" "COR_PASSIVES" (at 281.94 48.26 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Sheetfile" "COR_PASSIVES.kicad_sch" (at 281.94 68.58 0) (effects (font (size 1.27 1.27)) (justify left))) (instances (project "Morpheus" (path "/25065b1f-30b0-4776-a181-a8fc84e87552/2dd27c41-bdff-4bb0-90ff-78c611eb9506/91ef8b68-caa0-5953-8146-6e87456a8314" (page "9")))))
+(sheet (at 281.94 83.82) (size 110.49 15.24) (stroke (width 0.254) (type default)) (fill (color 0 0 0 0)) (uuid "d624a7e1-4537-5a71-9a1d-ef3d2feccc59") (property "Sheetname" "MON_GAUGE" (at 281.94 81.27999999999999 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Sheetfile" "MON_GAUGE.kicad_sch" (at 281.94 101.6 0) (effects (font (size 1.27 1.27)) (justify left))) (instances (project "Morpheus" (path "/25065b1f-30b0-4776-a181-a8fc84e87552/2dd27c41-bdff-4bb0-90ff-78c611eb9506/91ef8b68-caa0-5953-8146-6e87456a8314" (page "10")))))
+(sheet (at 281.94 116.84) (size 110.49 15.24) (stroke (width 0.254) (type default)) (fill (color 0 0 0 0)) (uuid "c06daeb5-068b-5b69-9372-e68cf8438660") (property "Sheetname" "MON_READOUT" (at 281.94 114.3 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Sheetfile" "MON_READOUT.kicad_sch" (at 281.94 134.62 0) (effects (font (size 1.27 1.27)) (justify left))) (instances (project "Morpheus" (path "/25065b1f-30b0-4776-a181-a8fc84e87552/2dd27c41-bdff-4bb0-90ff-78c611eb9506/91ef8b68-caa0-5953-8146-6e87456a8314" (page "11")))))
+(sheet (at 281.94 149.86) (size 110.49 15.24) (stroke (width 0.254) (type default)) (fill (color 0 0 0 0)) (uuid "22f1b2ec-781a-5b6c-89ca-be51c0ddb603") (property "Sheetname" "TSCE" (at 281.94 147.32000000000002 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Sheetfile" "TSCE.kicad_sch" (at 281.94 167.64000000000001 0) (effects (font (size 1.27 1.27)) (justify left))) (instances (project "Morpheus" (path "/25065b1f-30b0-4776-a181-a8fc84e87552/2dd27c41-bdff-4bb0-90ff-78c611eb9506/91ef8b68-caa0-5953-8146-6e87456a8314" (page "12")))))
+(text "USB/pack/MCU endpoints integrated on POWER; inspect whole native boundary proof." (at 20 228 0) (effects (font (size 1.35 1.35)) (justify left)) (uuid "77788805-b708-5aab-bbb9-3f0dbf890f01"))
+(text "PACK_P -> R701 high-side sense -> BAT_MON -> U901 BAT. No power bypass or TS/display coupling." (at 20 236 0) (effects (font (size 1.35 1.35)) (justify left)) (uuid "c09a844f-b945-5fd8-a84a-048c93fa9687"))
+(text "U805 USB_QUAL -> U901 -> SYS -> U807 -> M3V3; REGN -> charge TS network. Not operating proof." (at 20 244 0) (effects (font (size 1.35 1.35)) (justify left)) (uuid "1679ef52-4e79-540f-91e5-ef2cbe2609e2"))
+(text "Cell TS / hardware CE disable follow DEC-014. Actual source, startup and physical gates still OPEN." (at 20 252 0) (effects (font (size 1.35 1.35)) (justify left)) (uuid "1ccac19c-5950-547d-a44c-10a51c851afa"))
+(text "Actual pack/sensors, SYS reset/ramp, partial-power/current/caps/loop/lands/EPD and handover OPEN." (at 20 260 0) (effects (font (size 1.35 1.35)) (justify left)) (uuid "f42618c5-1fe0-56fb-b2ee-db18e39c9903"))
+
+(sheet (at 281.94 182.88) (size 110.49 15.24) (stroke (width 0.254) (type default)) (fill (color 0 0 0 0)) (uuid "dd7f6321-c4a7-5a25-ad27-c96b03f6c5ff") (property "Sheetname" "SRC_QUAL" (at 281.94 180.34 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Sheetfile" "SRC_QUAL.kicad_sch" (at 281.94 200.66 0) (effects (font (size 1.27 1.27)) (justify left))) (instances (project "Morpheus" (path "/25065b1f-30b0-4776-a181-a8fc84e87552/2dd27c41-bdff-4bb0-90ff-78c611eb9506/91ef8b68-caa0-5953-8146-6e87456a8314" (page "13")))))
+)

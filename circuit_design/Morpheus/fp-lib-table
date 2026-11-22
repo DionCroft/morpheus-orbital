@@ -1,0 +1,8 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Morpheus")(type "KiCad")(uri "${KIPRJMOD}/../libraries/Morpheus.pretty")(options "")(descr "Morpheus project footprints"))
+
+(lib (name "Morpheus_Power_Reviewed")(type "KiCad")(uri "${KIPRJMOD}/PowerReviewed/Morpheus_Power_Reviewed.pretty")(options "")(descr "Accepted primary power lands, PCB/assembly qualification held"))
+
+(lib (name "Connector_USB")(type "KiCad")(uri "${KIPRJMOD}/../libraries/Connector_USB.pretty")(options "")(descr "Exact installed KiCad10.0.4 HCTL USB source bundled byte-identically for portability; no physical change"))
+)
